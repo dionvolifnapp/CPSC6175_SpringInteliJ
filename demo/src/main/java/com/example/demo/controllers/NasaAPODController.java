@@ -45,7 +45,6 @@ public class NasaAPODController {
 
         String response = restTemplate.getForObject(apiUrl.toString(), String.class);
 
-        // Log the response
         System.out.println("NASA APOD API Response: " + response);
 
         return response;
