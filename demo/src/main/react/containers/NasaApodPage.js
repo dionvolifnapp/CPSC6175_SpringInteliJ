@@ -46,6 +46,7 @@ const NasaApodPage = () => {
     setDate('');
     setFromDate('');
     setToDate('');
+    setCount('');
   };
 
   return (
