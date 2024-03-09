@@ -65,7 +65,7 @@ const NasaApodPage = () => {
         <input type="number" id="count" value={count} onChange={e => setCount(e.target.value)} />
 
         <button onClick={fetchData}>Fetch Data</button>
-        <button onClick={clearDates}>Clear All Dates</button> {/* Clear All Dates button */}
+        <button onClick={clearDates}>Clear All Dates</button>
         <div className="total-count">Total Images: {images.length}</div>
       </div>
 
